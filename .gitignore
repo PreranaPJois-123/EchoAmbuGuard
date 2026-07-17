@@ -1,0 +1,22 @@
+# Virtual environments
+env/
+venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# Logs
+logs/
+
+# Generated features
+features/
+
+# TensorBoard runs
+models/run_*/
+
+# Temporary files
+*.log

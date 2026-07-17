@@ -1,0 +1,28 @@
+{
+  "sample_rate": 22050,
+  "duration_seconds": 3.0,
+  "n_mfcc": 13,
+  "max_pad_len": 130,
+  "n_fft": 2048,
+  "hop_length": 512,
+
+  "dataset_dir": "dataset",
+  "features_dir": "features",
+  "models_dir": "models",
+  "logs_dir": "logs",
+
+  "classes": ["ambulance", "non_ambulance"],
+
+  "batch_size": 4,
+  "max_batch_size": 32,
+  "epochs": 25,
+  "learning_rate": 0.001,
+  "validation_split": 0.2,
+  "min_val_samples_per_class": 1,
+  "random_seed": 42,
+
+  "early_stopping_patience": 6,
+  "reduce_lr_patience": 3,
+  "reduce_lr_factor": 0.5,
+  "min_learning_rate": 1e-6
+}

@@ -1,0 +1,27 @@
+{
+  "classes": [
+    "ambulance",
+    "non_ambulance"
+  ],
+  "input_shape": [
+    13,
+    130,
+    1
+  ],
+  "n_mfcc": 13,
+  "max_pad_len": 130,
+  "sample_rate": 22050,
+  "duration_seconds": 3.0,
+  "n_fft": 2048,
+  "hop_length": 512,
+  "epochs_requested": 25,
+  "epochs_run": 25,
+  "batch_size": 4,
+  "train_samples": 12,
+  "val_samples": 4,
+  "final_train_accuracy": 0.9166666865348816,
+  "final_val_accuracy": 1.0,
+  "training_time_seconds": 1.681265115737915,
+  "total_parameters": 25857,
+  "run_id": "20260717_180803"
+}
